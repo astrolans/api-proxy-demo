@@ -1,0 +1,10 @@
+{
+  "/api/*": {
+    "target": "https://rma-api-staging.optidev.se:443/api/v1/users/service",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
